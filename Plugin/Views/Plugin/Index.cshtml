@@ -1,0 +1,21 @@
+﻿@model Plugin.Models.PageViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div class="plugin-header">Hello From the Plugin</div>
+</div>
+
+@section Scripts {
+
+    <script>@Html.Raw(Model.Scripts)</script>
+
+}
+
+@section Styles {
+
+    <style>@Html.Raw(Model.Styles)</style>
+
+}
